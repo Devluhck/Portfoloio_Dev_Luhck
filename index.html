@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev_Luhck - Portfólio Pixel Art</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts - Press Start 2P -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header com Navbar -->
+    <header class="header">
+        <nav class="navbar">
+            <!-- Logo clicável -->
+            <div class="logo">
+                <a href="#home" class="logo-link">Dev_Luhck</a>
+            </div>
+            
+            <!-- Menu Desktop -->
+            <ul class="nav-menu">
+                <li><a href="https://github.com/Devluhck" target="_blank" class="nav-link">Projetos</a></li>
+                <li><a href="https://www.linkedin.com/in/lucas-freitas-dev-luhck" target="_blank" class="nav-link">Contato</a></li>
+                <li><a href="https://wa.me/5547997081408" target="_blank" class="nav-link whatsapp">WhatsApp</a></li>
+            </ul>
+            
+            <!-- Menu Hambúrguer (CSS-only) -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <!-- Menu Mobile -->
+            <ul class="mobile-menu">
+                <li><a href="https://github.com/Devluhck" target="_blank" class="nav-link">Projetos</a></li>
+                <li><a href="https://www.linkedin.com/in/lucas-freitas-dev-luhck" target="_blank" class="nav-link">Contato</a></li>
+                <li><a href="https://wa.me/5547997081408" target="_blank" class="nav-link whatsapp">WhatsApp</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <!-- Nuvens pixel art -->
+            <div class="cloud cloud-1"></div>
+            <div class="cloud cloud-2"></div>
+            <div class="cloud cloud-3"></div>
+            
+            <!-- Montanhas pixel art -->
+            <div class="mountains"></div>
+            
+            <!-- Tubos do Mario -->
+            <div class="pipe pipe-1"></div>
+            <div class="pipe pipe-2"></div>
+        </div>
+        
+        <div class="hero-content">
+            <!-- Avatar estilo sprite -->
+            <div class="avatar-container">
+                <img src="avatar.webp" alt="Lucas 'Luhck'" class="avatar">
+                <div class="avatar-border"></div>
+            </div>
+            
+            <!-- Informações do desenvolvedor -->
+            <div class="hero-text">
+                <h1 class="hero-name">Lucas "Luhck"</h1>
+                <h2 class="hero-title">Dev Front-End</h2>
+                <div class="power-up-indicator">
+                    <span class="coin">🪙</span>
+                    <span class="score">Level: Expert</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Moedas animadas -->
+        <div class="floating-coins">
+            <div class="coin-sprite coin-1">🪙</div>
+            <div class="coin-sprite coin-2">🪙</div>
+            <div class="coin-sprite coin-3">🪙</div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            
+            <!-- Caixa de diálogo estilo jogo -->
+            <div class="dialog-box">
+                <div class="dialog-content">
+                    <p>Olá! Sou Lucas, desenvolvedor front-end apaixonado por criar experiências digitais incríveis. Com expertise em JavaScript, React e tecnologias modernas, transformo ideias em realidade pixel por pixel.</p>
+                    <p>Minha missão é desenvolver interfaces que não apenas funcionem perfeitamente, mas que também proporcionem uma experiência única aos usuários.</p>
+                </div>
+                <div class="dialog-arrow"></div>
+            </div>
+            
+            <!-- Skills como power-ups -->
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-icon">🍄</div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">⭐</div>
+                    <span>React</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">🔥</div>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">⚡</div>
+                    <span>HTML5</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            
+            <div class="projects-grid">
+                <!-- Projeto 1 - Bloco de tijolo do Mario -->
+                <div class="project-card">
+                    <div class="project-icon">🏗️</div>
+                    <h3>E-commerce Platform</h3>
+                    <p>Plataforma completa de e-commerce desenvolvida com React e Node.js</p>
+                    <a href="https://github.com/Devluhck" target="_blank" class="project-link">Ver no GitHub</a>
+                </div>
+                
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-icon">📱</div>
+                    <h3>App de Tarefas</h3>
+                    <p>Aplicativo de produtividade com atualizações em tempo real</p>
+                    <a href="https://github.com/Devluhck" target="_blank" class="project-link">Ver no GitHub</a>
+                </div>
+                
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <div class="project-icon">🌤️</div>
+                    <h3>Dashboard Clima</h3>
+                    <p>Ferramenta interativa de visualização meteorológica</p>
+                    <a href="https://github.com/Devluhck" target="_blank" class="project-link">Ver no GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Dev_Luhck. Feito com ❤️ e muito ☕</p>
+                <div class="footer-links">
+                    <a href="https://github.com/Devluhck" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/lucas-freitas-dev-luhck" target="_blank">LinkedIn</a>
+                    <a href="https://wa.me/5547997081408" target="_blank">WhatsApp</a>
+                </div>
+            </div>
+            
+            <!-- Easter egg - Cogumelo pulsante -->
+            <div class="easter-egg">
+                <div class="mushroom">🍄</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
